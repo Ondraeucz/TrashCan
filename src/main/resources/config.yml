@@ -1,0 +1,22 @@
+#TRASHCAN
+
+#Version plugin -> 1.0 - SNAPSHOT
+
+#If you don't know what to do, join our discord, where we will give you advice.
+# https://discord.gg/nE2YhqWzDZ
+
+# Used to let the plugin determine if your config is up-to-date, so a
+# warning can be printed in the server console. Only edit this if you
+# know what you are doing, or have just updated your config to the
+# newest version.
+config-version: '1.0'
+
+#Commands/Permissions:
+
+#/trash tc.command.trash
+#/tc reload tc.admin.reload
+
+#Messages
+Prefix: "&e[&6TrashCan&e]"
+Reload: "&7Reload plugin was successful."
+Trash: "You don't have permission to use this trashcan!"

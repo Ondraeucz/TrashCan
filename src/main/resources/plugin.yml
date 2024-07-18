@@ -1,0 +1,16 @@
+name: TrashCan
+version: '${version}'
+main: org.ondraeu.trashcan.TrashCan
+api-version: '1.13'
+author: Ondraeu
+description: A very simple trash can
+depend:
+  - LuckPerms
+commands:
+  trash:
+    description: /trash
+    permission: tc.command.trash
+  trashcan:
+    description: /tc reload
+    permission: tc.admin.reload
+    aliases: tc
